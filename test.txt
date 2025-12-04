@@ -1,1 +1,13 @@
 Some textA few lines of code
+int main()
+{
+     //creating a multidimensional array
+     int myArray[4][5] = {
+        {989, 00, 78, 19, 48},
+        {234, 4324, 22, 23, 545},
+        {535, 3546, 334, 211, -56},
+        {34, 55, 66, 77, 88}
+        };
+    //Display the number 334
+std::cout << myArray[3][3] << std::endl;
+}
