@@ -1,4 +1,4 @@
-Some textA few lines of code
+A few lines of code
 int main()
 {
      //creating a multidimensional array
