@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
@@ -15,4 +15,19 @@ int main()
 std::cout << myArray[3][3] << std::endl;
 
         return 0;
+}
+int main()
+{   
+    int balance = 25;
+
+    if (balance >= 12)
+    {
+        cout << "Balance is 12 or greater, transaction is OKAY" << endl;
+    }
+    else
+    {
+        cout << "Balance is less than 12, transaction is NOT OKAY" << endl;
+    }
+
+
 }
